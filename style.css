@@ -1,0 +1,92 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header section */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the sections */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the about section */
+section#about {
+    background-color: #f9f9f9;
+}
+
+/* Style the topics section */
+section#topics ul {
+    list-style: none;
+}
+
+section#topics ul li {
+    margin-bottom: 10px;
+}
+
+/* Style the quotes section */
+section#quotes blockquote {
+    border-left: 4px solid #333;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+section#quotes cite {
+    font-style: italic;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Make links more noticeable */
+a {
+    color: #333;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #555;
+}
